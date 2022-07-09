@@ -2,46 +2,22 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Jackal is a sovereign blockchain built with the CosmosSDK. Jackal uses the Tendermint Consensus engine to achieve high throughput and secure transactions.
 
-## Getting Started
+## Installing
 
-Get started by **creating a new site**.
+To use Jackal you'll need a wallet! There are two ways to get a wallet and interact with the blockchain.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Command Line Interface (CLI)
 
-### What you'll need
+To interact with the Jackal chain from the command line, you'll need the CLI tool. You can download this [here](https://github.com/JackalLabs/canine-chain/releases).
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+### Web wallet
 
-## Generate a new site
+You can interact with Jackal through several web wallets. The most common is [Keplr](https://wallet.keplr.app/), this will give you access to the entirety of the Cosmos ecosystem.
 
-Generate a new Docusaurus site using the **classic template**.
+## Using the Jackal Chain
 
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Head over to https://beta.jackaldao.com to start your journey into using the Jackal Wallet.
