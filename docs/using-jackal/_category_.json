@@ -1,0 +1,10 @@
+{
+  "label": "Using Jackal",
+  "position":4,
+  "link": {
+    "type": "generated-index",
+    "description": "Jackal is a blockchain where users interact with the chain and eachother through public and private keys. This means there is no need for security vulnerabilities such as usernames, passwords, email addresses, phone numbers etc. 
+
+    There are three approved wallets that can be used to interact with the Jackal Protocol. Keplr, Metamask, and the Jackal Wallet. For the most optimized user experience, we recommend using the Jackal Wallet. "
+  }
+}

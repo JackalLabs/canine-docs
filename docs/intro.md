@@ -4,20 +4,10 @@ sidebar_position: 1
 
 # Getting Started
 
-Jackal is a sovereign blockchain built with the CosmosSDK. Jackal uses the Tendermint Consensus engine to achieve high throughput and secure transactions.
+You’ve arrived at the Jackal Wiki! Thank you for taking the first steps towards a more secure, simple, and self-custodial digital experience.
 
-## Installing
+The Jackal Protocol is [open source](https://github.com/JackalLabs/canine-chain) and community-driven to facilitate a transparent and trustless system. This wiki is a one-stop shop with information on the protocol, usage, infrastructure, and opportunities.
 
-To use Jackal you'll need a wallet! There are two ways to get a wallet and interact with the blockchain.
+The Jackal Wiki is maintained by Jackal Labs and the Jackal Foundation teams. We work tirelessly to maintain our documentation, but if you happen to stumble upon something out-of-date, please reach out to our teams so we can keep our documentation accurate in perpetuity. 
 
-### Command Line Interface (CLI)
 
-To interact with the Jackal chain from the command line, you'll need the CLI tool. You can download this [here](https://github.com/JackalLabs/canine-chain/releases).
-
-### Web wallet
-
-You can interact with Jackal through several web wallets. The most common is [Keplr](https://wallet.keplr.app/), this will give you access to the entirety of the Cosmos ecosystem.
-
-## Using the Jackal Chain
-
-Head over to https://beta.jackaldao.com to start your journey into using the Jackal Wallet.

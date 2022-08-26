@@ -1,0 +1,10 @@
+{
+  "label": "The Protocol",
+  "position":6,
+  "link": {
+    "type": "generated-index",
+    "description": "Also known as Canine, the Jackal Blockchain is a Cosmos L1 built using the Cosmos SDK and Tendermint, created with Ignite CLI.  Canine is open source and uses the MIT License. 
+
+    Canine has seven modules and two tokens."
+  }
+}
