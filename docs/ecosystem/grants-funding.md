@@ -16,7 +16,7 @@ For grants, applications will be reviewed based on the following criteria.
 
 | <100k         | 100k - 200k   | 200k+ |
 | ------------- |:-------------| :-----|
-| one round of review.| Two rounds of review. | Interviews, formal committee review, pitch & memo.
+| One round of review.| Two rounds of review. | Interviews, formal committee review, full pitch.
 
 
 For seed funding, the Jackal Foundation or Investment Network may support an ecosystem project with equity or token investments. For innovative founders that bring strategic value and adoption to the Jackal Ecosystem, please reach out directly to our team directly. 
