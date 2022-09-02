@@ -128,7 +128,7 @@ const config = {
         href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap',
       },
       {
-        href: 'http://fonts.cdnfonts.com/css/segoe-ui-4'
+        href: 'https://fonts.cdnfonts.com/css/segoe-ui-4'
       },
     ]
 };
