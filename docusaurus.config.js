@@ -6,7 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Jackal Chain Documentation',
+  title: 'Jackal Chain Docs',
   tagline: 'The who, what, where, why, when, and how to get started with Jackal\'s blockchain!',
   url: 'https://docs.jackaldao.com',
   baseUrl: '/',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/JackalLabs/canine-docs/blob/master/',
         },
         blog: {
           showReadingTime: true,
@@ -60,7 +60,7 @@ const config = {
         title: 'Jackal Docs',
         logo: {
           alt: 'Jackal Logo',
-          src: 'img/logo.svg',
+          src: 'img/jklimage.png',
         },
         items: [
           {
@@ -69,7 +69,6 @@ const config = {
             position: 'left',
             label: 'Getting Started',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/jackallabs/canine-chain',
             label: 'GitHub',
@@ -78,14 +77,14 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Jackal',
             items: [
               {
-                label: 'Getting Started',
-                to: '/docs/intro',
+                label: 'Website',
+                href: 'https://jackaldao.com',
               },
             ],
           },
@@ -103,11 +102,11 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Developers',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Documentation',
+                to: 'https://docs.jackaldao.com',
               },
               {
                 label: 'Contribute to Docs',
@@ -116,13 +115,22 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jackal Dao`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jackal Labs`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+
+    stylesheets: [
+      {
+        href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap',
+      },
+      {
+        href: 'http://fonts.cdnfonts.com/css/segoe-ui-4'
+      },
+    ]
 };
 
 module.exports = config;
