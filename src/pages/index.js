@@ -10,17 +10,68 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+    <header className="main-header">
       <div className="container">
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
+        <h1 className="main-title">{siteConfig.title}</h1>
+        <p className="main-subtitle">{siteConfig.tagline}</p>
           <Link
-            className="button button--secondary button--lg"
+            className="button button--secondary button--lg margin-bottom--xl"
             to="/docs/intro">
             Get Started
           </Link>
-        </div>
+
+          <h2 className="component-heading">About Jackal</h2>
+          <div className='row margin-top--md'>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/protocol/modules/module-overview">
+                <h2 className='no-margin'>Jackal Protocol</h2>
+              </Link>
+            </article>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/protocol/validators">
+                <h2 className='no-margin'>Networks</h2>
+              </Link>
+            </article>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="https://discord.com/invite/5GKym3p6rj">
+                <h2 className='no-margin'>Join the Community</h2>
+              </Link>
+            </article>
+          </div>
+          <h2 className="component-heading">Get Involved</h2>
+          <div className='row margin-top--md'>
+          <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/using-jackal/wallet">
+                <h2>Get a Wallet</h2>
+                <div>Set up an account on Jackal to interact with the chain</div>
+              </Link>
+            </article>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/using-jackal/delegate">
+                <h2>Staking and Liquidity</h2>
+                <div>Learn how to earn yield on your JKL tokens</div>
+              </Link>
+            </article>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="https://github.com/JackalLabs/canine-docs">
+                <h2>Contribute</h2>
+                <div>Maintain and improve the Jackal Documentation</div>
+              </Link>
+            </article>
+          </div>
+          
       </div>
     </header>
   );
@@ -33,9 +84,6 @@ export default function Home() {
       title={`${siteConfig.title}`}
       description="Documentation for the Jackal Ecosystem.">
       <HomepageHeader />
-      <main>
-        <HomepageFeatures />
-      </main>
     </Layout>
   );
 }

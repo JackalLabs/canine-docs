@@ -64,12 +64,6 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
-            position: 'left',
-            label: 'Getting Started',
-          },
-          {
             href: 'https://github.com/jackallabs/canine-chain',
             label: 'GitHub',
             position: 'right',

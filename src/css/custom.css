@@ -27,6 +27,7 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
   --ifm-font-family-base: SegoeUISemi;
+  /* --ifm-background-color: #eef0f2; */
 
 }
 
@@ -37,6 +38,10 @@ body {
 
 #__docusaurus {
   min-height: 100%;
+}
+
+.no-margin{
+  margin-bottom: 0px;
 }
 
 h1 {
@@ -54,4 +59,67 @@ h1 {
   --ifm-color-primary-lighter: #c1f0cd;
   --ifm-color-primary-lightest: #dff7e6;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+}
+
+
+.main-header{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.main-title{
+  font-size: 72px;
+}
+
+.main-subtitle{
+  font-size: 32px;
+  width: 60%;
+}
+
+.component-heading{
+  font-size: 32px;
+}
+
+.main-card{
+  box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.navbar{
+  box-shadow: none;
+  border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.main-wrapper, .navbar__inner{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media (min-width: 640px){
+.container, .main-wrapper, .navbar__inner {
+    max-width: 640px;
+}
+}
+
+@media (min-width: 768px){
+  .container, .main-wrapper, .navbar__inner {
+      max-width: 768px;
+  }
+  }
+
+@media (min-width: 1024px){
+  .container, .main-wrapper, .navbar__inner {
+      max-width: 1024px;
+      padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  }
+
+@media (min-width: 1280px) {
+  .container, .main-wrapper, .navbar__inner {
+    max-width: 1280px;
+  } 
 }
