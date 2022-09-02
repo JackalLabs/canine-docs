@@ -91,7 +91,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/jackal_dao',
+                href: 'https://twitter.com/Jackal_Protocol',
               },
             ],
           },
