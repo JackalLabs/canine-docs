@@ -99,27 +99,27 @@ h1 {
 
 
 @media (min-width: 640px){
-.container, .main-wrapper, .navbar__inner {
-    max-width: 640px;
+.main-wrapper, .navbar__inner {
+    width: 640px;
 }
 }
 
 @media (min-width: 768px){
-  .container, .main-wrapper, .navbar__inner {
-      max-width: 768px;
+  .main-wrapper, .navbar__inner {
+      width: 768px;
   }
   }
 
 @media (min-width: 1024px){
-  .container, .main-wrapper, .navbar__inner {
-      max-width: 1024px;
+  .main-wrapper, .navbar__inner {
+      width: 1024px;
       padding-left: 2rem;
       padding-right: 2rem;
   }
   }
 
 @media (min-width: 1280px) {
-  .container, .main-wrapper, .navbar__inner {
-    max-width: 1280px;
+  .main-wrapper, .navbar__inner {
+    width: 1280px;
   } 
 }
