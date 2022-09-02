@@ -4,6 +4,16 @@
  * work well for content-centric websites.
  */
 
+ @font-face {
+  font-family: SegoeUISemi;
+  src:
+      local("Segoe UI Semilight"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
+      url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
+  font-weight: 200;
+}
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #08B4B2;
@@ -15,6 +25,23 @@
   --ifm-color-primary-lightest: #c1eceb;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: SegoeUISemi;
+
+}
+
+body {
+  min-height: 100vh;
+}
+
+
+#__docusaurus {
+  min-height: 100%;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
