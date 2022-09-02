@@ -1,8 +1,4 @@
 {
   "label": "Overview",
-  "position": 2,
-  "link": {
-    "type": "generated-index",
-    "description": "Welcome to the Pack!"
-  }
+  "position": 2
 }

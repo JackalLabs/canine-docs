@@ -1,8 +1,4 @@
 {
   "label": "Blockchain Modules",
-  "position":1,
-  "link": {
-    "type": "generated-index",
-    "description": "As the Jackal Protocol is built using Tendermint and the Cosmos SDK, we are able to create an ecosystem of __modules__. The Protocol uses some of the basic modules needed for interacting with the Cosmos Ecosystem but have also created customized our own modules optimized for the needs of Jackal."
-  }
+  "position":1
 }
