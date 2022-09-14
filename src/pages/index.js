@@ -49,7 +49,7 @@ function HomepageHeader() {
           <article className='col col--4'>
               <Link
                 className="card main-card padding--lg margin-bottom--lg"
-                to="/docs/using-jackal/wallet">
+                to="/docs/using-jackal/wallet/jackalwallet">
                 <h2>Get a Wallet</h2>
                 <div>Set up an account on Jackal to interact with the chain</div>
               </Link>
