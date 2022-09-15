@@ -8,6 +8,6 @@ You’ve arrived at the Jackal Wiki! Thank you for taking the first steps toward
 
 The Jackal Protocol is [open source](https://github.com/JackalLabs/canine-chain) and community-driven to facilitate a transparent and trustless system. This wiki is a one-stop shop with information on the protocol, usage, infrastructure, and opportunities.
 
-The Jackal Wiki is maintained by [Jackal Labs](/canine-docs/docs/official-links/jackal-labs) and the [Jackal Foundation](/canine-docs/docs/contributors/foundation.md) teams. We work tirelessly to maintain our documentation, but if you happen to stumble upon something out-of-date, please reach out to our teams so we can keep our documentation accurate in perpetuity. 
+The Jackal Wiki is maintained by [Jackal Labs](/docs/official-links/jackal-labs) and the [Jackal Foundation](/docs/contributors/foundation.md) teams. We work tirelessly to maintain our documentation, but if you happen to stumble upon something out-of-date, please reach out to our teams so we can keep our documentation accurate in perpetuity. 
 
 
