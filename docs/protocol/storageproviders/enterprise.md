@@ -8,6 +8,6 @@ Teams looking to build a large storage system ~2.1 Petabytes of storage, the est
 - HVAC
 - Professionals 
 
-Those looking to build
+Those looking to build an enterprise storage provider, reach out to the team for recommendations and support. 
 
 
