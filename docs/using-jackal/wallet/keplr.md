@@ -4,12 +4,12 @@ sidebar_position: 2
 # Keplr Wallet
 
 
-The Keplr browser extension is a wallet for accessing some Jackal applications in the Cosmos ecosystem. Keplr can be used to exchange/manage JKL and other Cosmos based tokens, participate in governance from the Jackal Dashboard, and use Jackal Storage __without privacy__. 
+The Keplr browser extension is a wallet for accessing some Jackal applications in the [Cosmos ecosystem](https://cosmos.network/). Keplr can be used to exchange/manage JKL and other Cosmos based tokens, participate in governance from the [Jackal Dashboard](/canine-docs/docs/using-jackal/dashboard.md), and use Jackal Storage __without privacy__. 
 
-To use Jackal applications with a __high privacy and security posture__, create a new __Jackal Wallet__ or import private keys into a Jackal Wallet. 
+To use Jackal applications with a __high privacy and security posture__, create a new [Jackal Wallet](/canine-docs/docs/using-jackal/wallet/jackalwallet.md) or import private keys into a Jackal Wallet. 
 
 ## Set up Keplr
-More information about setting up a Keplr wallet can be found in the official Keplr Documentation.
+More information about setting up a Keplr wallet can be found in the official [Keplr Documentation](https://docs.keplr.app/).
 
 Open the Keplr extension on your browser. If you are setting up Keplr for the first time, you can either __create a new account__ or __import an existing account__.
 
