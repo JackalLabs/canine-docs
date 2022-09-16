@@ -22,7 +22,7 @@ Transactions on the Jackal Protocol must be paid for using JKL. As the protocol 
 Staked tokens grant on-chain governance participation within the Jackal Protocol to vote on text, software, spend, and other governance proposals. 
 
 ## Collateral
-The JKL token can act as collateral for validators, storage providers, and other smart contract usecases. 
+The JKL token can act as collateral for validators, storage providers, and other smart contract use cases. 
 
 ## Liquidity Provision
 JKL can be allocated into a liquidity pool to earn JKL rewards. 

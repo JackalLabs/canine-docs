@@ -8,7 +8,7 @@ Jackal Labs is a Canadian software development company that contributed to the e
 ### What is the scope of Jackal Labs? 
 - Contribute to the early development of the Jackal Protocol.
 
-- Perfom continuous research and development for the Protocol.
+- Perform continuous research and development for the Protocol.
 
 - Propose changes to the protocol through governance.
 

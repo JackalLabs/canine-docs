@@ -12,7 +12,7 @@ Jackal users are empowered with a fast and scalable blockchain while having the 
 
 - "I want better cybersecurity but don’t want to change your passwords every month."
 
-- "Because I shouldnt have to give up ownership of all my personal information to access basic services on the Internet." 
+- "Because I shouldn't have to give up ownership of all my personal information to access basic services on the Internet." 
 
 - "I cant trust third parties that sell your data when 15 million people in the US alone experience identity theft with over 50 billion in financial losses!" 
 
@@ -28,7 +28,7 @@ Jackal users are empowered with a fast and scalable blockchain while having the 
 
 - "Digital privacy is a fundamental human right and cybersecurity should be accessible to all." 
 
-- "Third-party cookies or trackers are invasive and unnecicary." 
+- "Third-party cookies or trackers are invasive and unnecessary."
 
 - "The only person that can sell my data is me." 
 
