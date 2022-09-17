@@ -12,9 +12,9 @@ Jackal users are empowered with a fast and scalable blockchain while having the 
 
 - "I want better cybersecurity but don’t want to change your passwords every month."
 
-- "Because I shouldnt have to give up ownership of all my personal information to access basic services on the Internet." 
+- "Because I shouldn't have to give up ownership of all my personal information to access basic services on the Internet." 
 
-- "I cant trust third parties that sell your data when 15 million people in the US alone experience identity theft with over 50 billion in financial losses!" 
+- "I can't trust third parties that sell your data when 15 million people in the US alone experience identity theft with over 50 billion in financial losses!" 
 
 - "Data breaches have exposed 14 billion of our records including passwords, usernames, emails, IP addresses, phone numbers, VINs, physical addresses, and more!"
 
