@@ -16,13 +16,13 @@ Applications built on the Jackal Protocol, such as Jackal Storage and the RNS Ma
 As the Jackal Protocol is a Proof-of-Stake (PoS) Cosmos L1 blockchain, JKL can be delegated to validators to secure the network and earn JKL rewards. Otherwise known as staking or staked tokens.
 
 ## Transaction Fees
-Transactions on the Jackal Protocol must be paid for using JKL. As the protocol is PoS, cost of transactions are inexpensive. 
+Transactions on the Jackal Protocol must be paid for using JKL. As the protocol is PoS, the cost of transactions is inexpensive. 
 
 ## Governance
-Staked tokens grant on-chain governance participation within the Jackal Protocol to vote on text, software, spend, and other governance proposals. 
+Staked tokens grant on-chain governance participation within the Jackal Protocol to vote on text, software, spending, and other governance proposals. 
 
 ## Collateral
-The JKL token can act as collateral for validators, storage providers, and other smart contract use-cases. 
+The JKL token can act as collateral for validators, storage providers, and other smart contract use cases. 
 
 ## Liquidity Provision
 JKL can be allocated into a liquidity pool to earn JKL rewards. 

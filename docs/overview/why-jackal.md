@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Why would I use the Jackal Protocol? 
 
-Jackal users are empowered with a fast and scalable blockchain while having the ability to be self custodial of their data. It may be hard to comprehend why many strive for a high digital privacy and cyber security posture, so here is a community compiled list of reasons people use the Jackal Protocol. 
+Jackal users are empowered with a fast and scalable blockchain while having the ability to be self-custodial of their data. It may be hard to comprehend why many strive for high digital privacy and cyber security posture, so here is a community-compiled list of reasons people use the Jackal Protocol. 
 
 - "I want a transparent, secure, and unified experience with web3." 
 
@@ -24,11 +24,11 @@ Jackal users are empowered with a fast and scalable blockchain while having the 
 
 - "I believe in open-source, transparent, ethical and humane technology." 
 
-- "It's empowering to own your own data."
+- "It's empowering to own your data."
 
 - "Digital privacy is a fundamental human right and cybersecurity should be accessible to all." 
 
-- "Third-party cookies or trackers are invasive and unnecicary." 
+- "Third-party cookies or trackers are invasive and unnecessary." 
 
 - "The only person that can sell my data is me." 
 

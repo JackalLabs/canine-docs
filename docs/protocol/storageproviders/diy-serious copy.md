@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 # DIY Serious Build
-For DIY individuals looking to power web3 infrastructure and increase your ROI- here is the reccomended system for serious individual storage providers. 
+For DIY individuals looking to power web3 infrastructure and increase your ROI- here is the recommended system for serious individual storage providers. 
 
 | Component|Recommendation| Units |
 | ------------- |:-------------| :-----|

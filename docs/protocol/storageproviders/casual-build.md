@@ -3,7 +3,7 @@ sidebar_position: 2
 ---
 # Casual Storage Build
 
-You may be successful contributing to the network with an old computer you may have. If you are looking to purpose build a machine- here is the recommendations for casual a storage provider. 
+You may be successful contributing to the network with an old computer you may have. If you are looking to purpose build a machine- here are the recommendations for casual a storage provider. 
 
 | Component|Recommendation| Units |
 | ------------- |:-------------| :-----|

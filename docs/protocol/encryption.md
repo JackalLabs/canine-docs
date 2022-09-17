@@ -11,7 +11,7 @@ What is done with this key is equally important as the encryption performed on t
 
 ![Protocol Overview](/img/jkl_paper/enc2.png)
 
-After this, the protocol ends up with an encrypted key that only the user whose public key was used can decrypt. When looking to decrypt a file, the process is reversed and instead uses the user's private key to decrypt the symmetric key. Following the retrieval of the symmetric key, we can decrypt the file stored on the Storage-Providers, leaving us with the originaly uploaded file.
+After this, the protocol ends up with an encrypted key that only the user whose public key was used can decrypt. When looking to decrypt a file, the process is reversed and instead uses the user's private key to decrypt the symmetric key. Following the retrieval of the symmetric key, we can decrypt the file stored on the Storage-Providers, leaving us with the originally uploaded file.
 
 ![Protocol Overview](/img/jkl_paper/enc3.png)
 
