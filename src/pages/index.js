@@ -71,6 +71,26 @@ function HomepageHeader() {
               </Link>
             </article>
           </div>
+          <h2 className="component-heading">Decentralize the Network</h2>
+          <div className='row margin-top--md'>
+          <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/nodes/installation">
+                <h2>Become A Validator</h2>
+                <div>Validate blocks on the network and earn $JKL as a reward.</div>
+              </Link>
+            </article>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/nodes/testnet">
+                <h2>Join the Testnet</h2>
+                <div>Join the testnet to deploy your dApp & interact with Jackal for free.</div>
+              </Link>
+            </article>
+            
+          </div>
           
       </div>
     </header>
