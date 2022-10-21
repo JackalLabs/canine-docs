@@ -7,6 +7,13 @@ sidebar_position: 2
 
 There are a few things needed before installing.
 
+### Installing Build Essentials
+
+```sh
+sudo apt update
+sudo apt install build-essential
+```
+
 ### Installing Go
 Follow more in-depth instructions to install Go v1.18.2 or higher [here](https://golang.org/doc/install).
 
@@ -48,3 +55,31 @@ From there you will be able to use `canined`, ex:
 canined version
 ```
 
+## Creating a Service
+You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these steps.
+
+```sh
+cd $HOME
+echo "[Unit]
+Description=Jackal Node
+After=network-online.target
+[Service]
+User=${USER}
+ExecStart=$(which canined) start
+Restart=always
+RestartSec=3
+LimitNOFILE=4096
+[Install]
+WantedBy=multi-user.target
+" > canined.service
+
+sudo mv canined.service /lib/systemd/system/
+sudo systemctl enable canined.service
+
+# Starting the service
+sudo systemctl start canined.service
+
+# Restarting the service
+sudo systemctl daemon-reload
+sudo systemctl restart canined.service
+```
