@@ -24,7 +24,7 @@ canined init <alias> --chain-id=<chain-id>
 Then we want to replace our generated genesis file with the one used to start the network.
 
 ```sh
-wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/woof/master/genesis/woof-final.json
+wget -O ~/.canine/config/genesis.json https://jackaldao.com/wp-content/uploads/2022/10/genesis-final.txt
 ```
 
 As a validator, you'll need to set a minimum gas price like so:
