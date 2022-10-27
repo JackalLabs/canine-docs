@@ -10,6 +10,12 @@ This guide assumes you are using the same machine as the full node.
 
 ## Setting Up
 
+As a validator, you'll need to set a minimum gas price like so:
+```sh
+GAS="0.002ujkl"
+sed -i.bak -e "s/^minimum-gas-prices *=.*/minimum-gas-prices = \"$GAS\"/" $HOME/.canine/config/app.toml
+```
+
 ```sh
 canined tx staking create-validator \
     --amount 1000000ujkl \
