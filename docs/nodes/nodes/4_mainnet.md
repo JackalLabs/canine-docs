@@ -17,14 +17,14 @@ canined init <alias> --chain-id=<chain-id>
 
 :::note
 
-`chain-id` for mainnet is currently `canine-1`.
+`chain-id` for mainnet is currently `jackal-1`.
 
 :::
 
 Then we want to replace our generated genesis file with the one used to start the network.
 
 ```sh
-wget -O ~/.canine/config/genesis.json https://jackaldao.com/wp-content/uploads/2022/10/genesis-final.txt
+wget -O ~/.canine/config/genesis.json https://cdn.discordapp.com/attachments/1002389406650466405/1034968352591986859/updated_genesis2.json
 ```
 
 As a validator, you'll need to set a minimum gas price like so:

@@ -20,6 +20,6 @@ canined tx staking create-validator \
     --min-self-delegation 1 \
     --moniker {YOUR_MONIKER} \
     --pubkey $(canined tendermint show-validator) \
-    --chain-id canine-1 \
+    --chain-id jackal-1 \
     --gas-prices 0.02ujkl
 ```
