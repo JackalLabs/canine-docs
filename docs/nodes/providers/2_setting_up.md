@@ -13,7 +13,14 @@ The chain must be live on main-net to complete the following actions
 
 :::
 
-```sh
+
+
+:::info
+
+Coming soon in their finality
+
+:::
+<!-- ```sh
 canined init [node-name] --home={path-to-pool-from-before}
 
 canined config chain-id jackal-1
@@ -22,5 +29,5 @@ canined config keyring-backend test
 canined tx storage init-provider {IP_ADDRESS} {STORAGE_IN_BYTES} --from {KEY_NAME} --gas-prices=0.002ujkl
 
 canined start-provider --from {KEY_NAME} --gas-prices=0.002ujkl -y
-```
+``` -->
 
