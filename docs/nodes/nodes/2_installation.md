@@ -55,6 +55,27 @@ From there you will be able to use `canined`, ex:
 canined version
 ```
 
+## Syncing to Current Height
+
+Get a snapshot [here](http://snapshots.autostake.net/jackal-1/).
+
+For the sake of this guide, the snapshot we download is named `jackal.tar.lz4`
+
+```sh
+sudo snap install lz4
+canined unsafe-reset-all --keep-addr-book
+lz4 -c -d jackal.tar.lz4  | tar -x -C $HOME/.canine
+```
+
+Then start the chain again.
+
+### Versions for Sync
+
+|block height|canined version|
+|------------|---------------|
+|45381       |1.1.2          |
+|0           |1.1.0          |
+
 ## Creating a Service
 You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these steps.
 
