@@ -15,13 +15,13 @@ sudo apt install build-essential
 ```
 
 ### Installing Go
-Follow more in-depth instructions to install Go v1.18.2 or higher [here](https://golang.org/doc/install).
+Follow more in-depth instructions to install Go v1.19 or higher [here](https://golang.org/doc/install).
 
 On Ububtu you can install it with:
 
 ```sh
-wget https://golang.org/dl/go1.18.2.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.18.2.linux-amd64.tar.gz
+wget https://golang.org/dl/go1.19.3.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.19.3.linux-amd64.tar.gz
 ```
 
 Add these lines to the end of `~/.profile`:
@@ -71,10 +71,10 @@ Then start the chain again.
 
 ### Versions for Sync
 
-|block height|canined version|
-|------------|---------------|
-|45381       |1.1.2          |
-|0           |1.1.0          |
+| block height | canined version |
+|--------------|-----------------|
+| 45381        | 1.1.2           |
+| 0            | 1.1.0           |
 
 ## Creating a Service
 You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these steps.
