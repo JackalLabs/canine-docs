@@ -4,7 +4,7 @@ sidebar_position: 1
 # Creating Validator
 
 
-::: tip
+:::tip
 
 This guide assumes you are using the same machine as the full node.
 

@@ -7,7 +7,7 @@ sidebar_position: 2
 
 There are a few things needed before installing.
 
-::: tip
+:::tip
 
 Perform the follow instructions as `root` or your `admin` account.
 
@@ -105,11 +105,11 @@ sudo systemctl enable canined.service
 ```
 
 ## Building from Source
-::: tip
+:::tip
 
 Perform the next follow steps as your `jackal` user
 
-::
+:::
 
 Replace `<VERSION>` with the current running version.
 ```sh

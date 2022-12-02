@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 # Joining Mainnet
 
-::: tip
+:::tip
 
 Perform the following as the `jackal` user.
 
