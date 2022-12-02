@@ -11,7 +11,7 @@ canined init <alias> --chain-id=<chain-id>
 
 :::note
 
-`chain-id` for testnet is currently `lupulella-1`.
+`chain-id` for testnet is currently `lupulella-2`.
 
 :::
 
@@ -22,7 +22,7 @@ For an updated list of peers & seeds, please check [this page](https://github.co
 ```sh
 wget -O ~/.canine/config/genesis.json https://raw.githubusercontent.com/JackalLabs/jackal-chain-assets/main/testnet/genesis.json
 
-export SEEDS="f02c15ad3debdbab0845f399379871d8ee70a0c0@45.79.161.178:26657"
+export SEEDS="84f520678ef59ea02f942fa6323ec562ca5a3249@45.79.161.178:26656,cecc087977336da1e9ccd2c50097cd9e7d5e1874@141.95.33.39:26656"
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/" ~/.canine/config/config.toml
 ```
 

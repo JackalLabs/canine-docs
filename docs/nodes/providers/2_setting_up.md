@@ -14,20 +14,16 @@ The chain must be live on main-net to complete the following actions
 :::
 
 
+```sh
+export PHOME={path-to-pool-from-before}
 
-:::info
+jprovd client gen-key --home=$PHOME
 
-Coming soon in their finality
+jprovd config chain-id {chain-id} --home=$PHOME
+jprovd config node {your node} --home=$PHOME
 
-:::
-<!-- ```sh
-canined init [node-name] --home={path-to-pool-from-before}
+jprovd init {IP_ADDRESS} {STORAGE_IN_BYTES} {KEYBASE_IDENTITY} --home=$PHOME
 
-canined config chain-id jackal-1
-canined config keyring-backend test
-
-canined tx storage init-provider {IP_ADDRESS} {STORAGE_IN_BYTES} --from {KEY_NAME} --gas-prices=0.002ujkl
-
-canined start-provider --from {KEY_NAME} --gas-prices=0.002ujkl -y
-``` -->
+jprovd start --home=$PHOME
+```
 
