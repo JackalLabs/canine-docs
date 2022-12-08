@@ -7,6 +7,11 @@ sidebar_position: 1
 
 This guide assumes you either have access to a full node over a network connection or are using the same machine as the full node.
 
+## Networking
+To allow your provider to be used by the Jackal Protocol Dashboard, please ensure you have a reverse proxy system setup and have a registered domain name pointing to your provider. We recommend using [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/).
+
+If you have UPNP enabled on your router, your provider will be open to the internet by default at port `3333`. You can find the address it can be connected to by running `canined network ip`.
+
 ## Setting up ZFS Without Mirroring
 
 Setting up ZFS allows us to combine multiple drives together, in this case we are merging two drives. We don't recommend you only merge drives with striping and instead we recommend mirroring. However mirroring is a longer process and different for each configuration. In our case, this machine is only running with 24TB across 2 drives. We are less concerned about a drive failing as that would wipe half our storage anyways.
