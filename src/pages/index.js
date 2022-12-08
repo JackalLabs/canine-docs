@@ -89,6 +89,14 @@ function HomepageHeader() {
                 <div>Join the testnet to deploy your dApp & interact with Jackal for free.</div>
               </Link>
             </article>
+            <article className='col col--4'>
+              <Link
+                className="card main-card padding--lg margin-bottom--lg"
+                to="/docs/nodes/providers/building">
+                <h2>Become a Provider</h2>
+                <div>Start storing data for the Jackal Network to ensure data security for Jackal users.</div>
+              </Link>
+            </article>
             
           </div>
           
