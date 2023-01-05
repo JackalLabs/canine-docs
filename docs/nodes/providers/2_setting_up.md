@@ -14,8 +14,16 @@ Check latest version [here](https://github.com/JackalLabs/canine-provider/releas
 
 :::
 
+:::note
+
+'Setting Up' instructions must be followed fully to add necessary golang path info to the current users ~/.profile. If these steps are skipped, 'make install' will not build jprovd--the provider daemon. 
+
+:::
+
 ```sh
 git clone https://github.com/JackalLabs/canine-provider.git
+
+cd canine-provider 
 
 git pull
 
@@ -29,6 +37,14 @@ make install
 :::tip
 
 Your keybase identity can be left as `""` if you don't want to link your provider to keybase.
+
+:::
+
+:::note
+
+Before running 'jprovd init', your account will need tokens. 
+Testnet tokens can be obtained at https://testnet-faucet.jackalprotocol.com/ 
+Mainnet tokens can be purchased on https://frontier.osmosis.zone/ 
 
 :::
 
