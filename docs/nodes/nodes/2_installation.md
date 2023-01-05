@@ -18,6 +18,12 @@ ufw allow 26657/tcp comment 'JACKAL - Cosmos SDK/Tendermint P2P'
 ufw enable
 ```
 
+:::tip
+
+Perform the next follow steps as your `jackal` user with 'sudo' permissions 
+
+:::
+
 ### Creating a Service
 You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these steps.
 
@@ -54,11 +60,6 @@ sudo systemctl enable canined.service
 ```
 
 ## Building from Source
-:::tip
-
-Perform the next follow steps as your `jackal` user with 'sudo' permissions 
-
-:::
 
 Replace `<VERSION>` with the current running version.
 ```sh
