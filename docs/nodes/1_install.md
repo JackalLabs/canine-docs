@@ -12,6 +12,13 @@ There are a few things needed before installing.
 Perform the follow instructions as `root` or your `admin` account.
 
 :::
+
+### Create Jackal user
+
+```sh
+sudo adduser --gecos "" jackal
+```
+
 ### Installing required tools
 This will install the necessary tools to build the jackal chain source, along with lz4 compression tool and jquery tool.
 
