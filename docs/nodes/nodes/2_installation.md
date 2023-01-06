@@ -14,22 +14,23 @@ ufw limit ssh/tcp comment 'Rate limit for openssh server'
 ufw default deny incoming
 ufw default allow outgoing
 ufw allow 26656/tcp comment 'JACKAL - Cosmos SDK/Tendermint P2P'
+ufw allow 26657/tcp comment 'JACKAL - Cosmos SDK/Tendermint P2P'
 ufw enable
 ```
 
-### Create Jackal user
+:::tip
 
-```sh
-sudo adduser --gecos "" jackal
-```
+Perform the next follow steps as your `jackal` user with 'sudo' permissions 
+
+:::
 
 ### Creating a Service
 You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these steps.
 
-First create the service file `/etc/systemd/system/jackal.service`
+First create the service file `/etc/systemd/system/canined.service`
 
 ```sh
-sudo nano /etc/systemd/system/jackal.service
+sudo nano /etc/systemd/system/canined.service
 ```
 
 Copy and paste the follow into the service file: (you may need to edit it if you've set a custom home directory location)
@@ -59,11 +60,6 @@ sudo systemctl enable canined.service
 ```
 
 ## Building from Source
-:::tip
-
-Perform the next follow steps as your `jackal` user
-
-:::
 
 Replace `<VERSION>` with the current running version.
 ```sh
