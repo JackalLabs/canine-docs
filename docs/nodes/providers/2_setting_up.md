@@ -50,7 +50,7 @@ jprovd --version
 
 ```
 
-If you used ZFS to make a zpool. Given ownership of the zpool to the jackal user. 
+If you used ZFS to make a zpool. Give ownership of the zpool to the jackal user. 
 
 ```sh
 
