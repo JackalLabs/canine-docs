@@ -16,9 +16,22 @@ Check latest version [here](https://github.com/JackalLabs/canine-provider/releas
 
 :::note
 
-'Setting Up' instructions must be followed fully to add necessary golang path info to the current users ~/.profile. If these steps are skipped, 'make install' will not build jprovd--the provider daemon. 
+'Setting Up' instructions must be followed fully to add necessary golang path info to the current users ~/.profile. If these steps are skipped, 'make install' will not build jprovd--the provider daemon. Please ensure to perform the below steps as the 'jackal' user you previously made. 
 
 :::
+
+Install make and confirm installation. 
+
+```sh
+sudo apt update
+
+sudo apt install make
+
+make --version
+
+```
+
+Build jprovd and source the .profile to ensure your shell can find jprovd. Confirm installation. 
 
 ```sh
 git clone https://github.com/JackalLabs/canine-provider.git
@@ -30,6 +43,19 @@ git pull
 git checkout {version}
 
 make install
+
+source ~/.profile
+
+jprovd --version 
+
+```
+
+If you used ZFS to make a zpool. Give ownership of the zpool to the jackal user. 
+
+```sh
+
+sudo chown -R jackal:jackal /{pool-name}
+
 ```
 
 ## Initializing
@@ -86,7 +112,7 @@ Mainnet tokens can be purchased on https://frontier.osmosis.zone/
 5. Initialize the provider 
 
 ```sh
-jprovd init {IP_ADDRESS} {STORAGE_IN_BYTES} {KEYBASE_IDENTITY} --home=$PHOME
+jprovd init {FQDN} {STORAGE_IN_BYTES} {KEYBASE_IDENTITY} --home=$PHOME
 ```
 
 example:
@@ -95,7 +121,7 @@ example:
 jprovd init "https://storagep1.chainstrategies.cloud" "9000" "" --home=$PHOME
 ```
 
- Please note that 'https://' is required to be included in the ip or init will throw an error. 
+ Please note that 'https://' is required to be included in the FQDN or init will throw an error. 
  Link for TB to Bytes converter: https://www.convertunits.com/from/TB/to/byte 
 
 6. Start the provider 

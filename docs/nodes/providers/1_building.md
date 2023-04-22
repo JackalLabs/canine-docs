@@ -44,10 +44,16 @@ Disk identifier: D2827F71-7F0A-EE4A-BB12-1B2172641DBE
 ...
 ```
 
-Note down the Disk paths that you wish to use for your storage provider, in this case it is `/dev/sdb` and `/dev/sda`. Now we create a new pool as follows:
+Note down the Disk paths that you wish to use for your storage provider, in this case it is `/dev/sdb` and `/dev/sda`. 
+
+We install ZFS and create a new pool as follows:
 
 ```sh
-sudo zpool create {pool-name} /dev/sdb /dev/sda ...
+sudo apt install zfsutils-linux
+
+sudo zpool create {pool-name} /dev/sda /dev/sdb ...
+
+sudo zpool status
 ```
 
 This folder will now have the drives mounted at `/{pool-name}`. For more in-depth guides to using zfs, check out [this page](https://zfsonlinux.org/).

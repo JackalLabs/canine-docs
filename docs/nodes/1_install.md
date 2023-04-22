@@ -5,19 +5,18 @@ sidebar_position: 0
 
 ## Pre-Requisites 
 
-There are a few things needed before installing.
+There are a few things needed before installing. 
 
-:::tip
-
-Perform the follow instructions as `root` or your `admin` account.
-
-:::
+While logged in as the 'root' or 'admin' user, we add a 'jackal' user and give them root privileges.
 
 ### Create Jackal user
 
 ```sh
 sudo adduser --gecos "" jackal
+sudo usermod -aG sudo jackal
 ```
+
+Re-log in as the jackal user to complete the below steps. 
 
 ### Installing required tools
 This will install the necessary tools to build the jackal chain source, along with lz4 compression tool and jquery tool.
