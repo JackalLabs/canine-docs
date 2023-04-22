@@ -20,6 +20,17 @@ Check latest version [here](https://github.com/JackalLabs/canine-provider/releas
 
 :::
 
+Install make and confirm installation. 
+
+```sh
+sudo apt update
+
+sudo apt install make
+
+make --version
+
+```
+
 Build jprovd and source the .profile to ensure your shell can find jprovd. Confirm installation. 
 
 ```sh
@@ -31,9 +42,9 @@ git pull
 
 git checkout {version}
 
-source ~/.profile
-
 make install
+
+source ~/.profile
 
 jprovd --version 
 
