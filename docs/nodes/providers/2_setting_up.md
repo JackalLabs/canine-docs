@@ -112,7 +112,7 @@ Mainnet tokens can be purchased on https://frontier.osmosis.zone/
 5. Initialize the provider 
 
 ```sh
-jprovd init {IP_ADDRESS} {STORAGE_IN_BYTES} {KEYBASE_IDENTITY} --home=$PHOME
+jprovd init {FQDN} {STORAGE_IN_BYTES} {KEYBASE_IDENTITY} --home=$PHOME
 ```
 
 example:
@@ -121,7 +121,7 @@ example:
 jprovd init "https://storagep1.chainstrategies.cloud" "9000" "" --home=$PHOME
 ```
 
- Please note that 'https://' is required to be included in the ip or init will throw an error. 
+ Please note that 'https://' is required to be included in the FQDN or init will throw an error. 
  Link for TB to Bytes converter: https://www.convertunits.com/from/TB/to/byte 
 
 6. Start the provider 
