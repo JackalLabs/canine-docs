@@ -66,7 +66,7 @@ sudo adduser --gecos "" jackal
 sudo usermod -aG sudo jackal
 ```
 
-Re-log in as the jackal user to complete the below steps:
+Log in as the jackal user to complete the below steps:
 
 ```sh
 sudo su - jackal
