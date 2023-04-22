@@ -66,7 +66,11 @@ sudo adduser --gecos "" jackal
 sudo usermod -aG sudo jackal
 ```
 
-Re-log in as the jackal user to complete the below steps. 
+Re-log in as the jackal user to complete the below steps:
+
+```sh
+sudo su - jackal
+```
 
 ### Installing required tools
 This will install the necessary tools to build the jackal chain source, along with lz4 compression tool and jquery tool.
