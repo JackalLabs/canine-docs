@@ -13,6 +13,51 @@ Perform the follow instructions as `root` or your `admin` account.
 
 :::
 
+### Create Firewall Rules
+These are necessecary to ensure your hardware remains secure. The following should be used for both validators and providers:
+
+```sudo ufw allow 22
+sudo ufw allow 80
+sudo ufw allow 443
+```
+
+The following is required if you are running a validator:
+
+```sudo ufw allow 26657
+sudo ufw allow 26658
+```
+
+The following is required if you are running a provider:
+
+```sudo ufw allow 3333
+```
+
+If you are running a combined validator/providor you will need to allow all of the above ports. Once done adding ports, you must enable the firewall:
+
+```sudo ufw enable
+```
+
+After enabling, check the status to verify the firewall is running:
+
+```sudo ufw status verbose
+```
+
+The output should appear as follows, with the ports you have allowed:
+
+```Status: active
+
+To                         Action      From
+--                         ------      ----
+22                         ALLOW       Anywhere
+80                         ALLOW       Anywhere
+443                        ALLOW       Anywhere
+1317                       ALLOW       Anywhere
+3333                       ALLOW       Anywhere
+26657                      ALLOW       Anywhere
+26658                      ALLOW       Anywhere
+```
+
+
 ### Create Jackal user
 
 ```sh
