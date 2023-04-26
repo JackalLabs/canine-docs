@@ -2,12 +2,10 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# Welcome to Jackal Wiki
 
-You’ve arrived at the Jackal Wiki! Thank you for taking the first steps towards a more secure, simple, and self-custodial digital experience.
+Welcome, explorer, to the Jackal Wiki, where you'll embark on a journey to discover a more secure, simple, and self-custodial digital world.
 
-The Jackal Protocol is [open source](https://github.com/JackalLabs/canine-chain) and community-driven to facilitate a transparent and trustless system. This wiki is a one-stop shop with information on the protocol, usage, infrastructure, and opportunities.
+The Jackal Protocol, an [open-source](https://github.com/JackalLabs/canine-chain) and community-driven innovation, fosters a transparent and trustless ecosystem. You've found the ultimate hub for all things Jackal: protocol insights, usage tips, infrastructure knowledge, and unique opportunities.
 
-The Jackal Wiki is maintained by [Jackal Labs](/docs/official-links/jackal-labs) and the [Jackal Foundation](/docs/contributors/foundation.md) teams. We work tirelessly to maintain our documentation, but if you happen to stumble upon something out-of-date, please reach out to our teams so we can keep our documentation accurate in perpetuity. 
-
-
+Our enthusiastic teams at [Jackal Labs](/docs/official-links/jackal-labs) and the [Jackal Foundation](/docs/contributors/foundation.md) diligently maintain the Jackal Wiki. If you happen to spot outdated information, don't hesitate to reach out—your input helps us ensure accuracy for the entire community. Let's shape the future of digital experiences together!
