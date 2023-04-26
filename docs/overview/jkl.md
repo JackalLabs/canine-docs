@@ -2,28 +2,39 @@
 sidebar_position: 2
 ---
 
-# What is the JKL Token?
+# What Is The JKL Token?
 
-The JKL Token is the native token that powers the infrastructure of the Jackal Protocol and can be applied in a multitude of different ways. 
+The JKL Token is the driving force behind the revolutionary Jackal Protocol. This versatile native token seamlessly integrates with the ecosystem, unlocking endless possibilities for users, developers, and enterprises alike.
 
-## dApps
+## What Does The JKL Token Do? 
 
-Applications built on the Jackal Protocol, such as Jackal Storage and the RNS Marketplace may choose to leverage the JKL token to expand its utility. 
+### Fueling dApps
+
+JKL Token plays a pivotal role in applications built on the Jackal Protocol, such as Jackal Storage and the RNS Marketplace. By harnessing the power of JKL, these applications can unlock new potentials and further enhance their utility.
+
+### Network Security
+
+At its core, the Jackal Protocol is a Proof-of-Stake (PoS) Cosmos L1 blockchain, relying on JKL delegation to validators for network security. Stake your JKL tokens and contribute to securing the network while earning rewards.
+
+### Affordable Transactions
+
+With JKL, transaction fees on the Jackal Protocol are incredibly cost-effective, ensuring that users have an affordable and seamless experience.
+
+### Governance
+
+Staked JKL tokens grant you the power to participate in on-chain governance within the Jackal Protocol. Make your voice heard by voting on text, software, spending, and other critical governance proposals.
+
+### Collateral
+
+The JKL token serves as versatile collateral for validators, storage providers, and various smart contract use cases, unlocking new possibilities for users and developers.
+
+### Liquidity
+
+Put your JKL tokens to work by allocating them into a liquidity pool and earn JKL rewards in return. Contribute to the ecosystem while reaping the benefits of your investment.
+
+### Data Storage
+
+The JKL token serves as the primary medium of exchange for accessing data storage within the Jackal Protocol, ensuring a smooth and efficient market for users and storage providers alike.
 
 
-## Securing the Network
-
-As the Jackal Protocol is a Proof-of-Stake (PoS) Cosmos L1 blockchain, JKL can be delegated to validators to secure the network and earn JKL rewards. Otherwise known as staking or staked tokens.
-
-## Transaction Fees
-Transactions on the Jackal Protocol must be paid for using JKL. As the protocol is PoS, the cost of transactions is inexpensive. 
-
-## Governance
-Staked tokens grant on-chain governance participation within the Jackal Protocol to vote on text, software, spending, and other governance proposals. 
-
-## Collateral
-The JKL token can act as collateral for validators, storage providers, and other smart contract use cases. 
-
-## Liquidity Provision
-JKL can be allocated into a liquidity pool to earn JKL rewards. 
 
