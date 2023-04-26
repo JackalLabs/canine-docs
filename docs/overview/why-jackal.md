@@ -2,34 +2,54 @@
 sidebar_position: 3
 ---
 
-# Why would I use the Jackal Protocol? 
+# Why Choose Jackal Protocol
 
-Jackal users are empowered with a fast and scalable blockchain while having the ability to be self-custodial of their data. It may be hard to comprehend why many strive for high digital privacy and cyber security posture, so here is a community-compiled list of reasons people use the Jackal Protocol. 
+The Jackal Protocol offers various advantages for individuals, small businesses, and large enterprises seeking secure, decentralized data storage and management solutions.
 
-- "I want a transparent, secure, and unified experience with web3." 
+## Individuals
 
-- "The same reason we think our phones are listening to us!"
+Individuals choose the Jackal Protocol for several reasons:
 
-- "I want better cybersecurity but don’t want to change your passwords every month."
+### Enhanced data privacy and security
 
-- "Because I shouldn't have to give up ownership of all my personal information to access basic services on the Internet." 
+The decentralized nature of the Jackal Protocol ensures that your data is stored across multiple nodes, reducing the risk of data breaches and unauthorized access.
 
-- "I can't trust third parties that sell your data when 15 million people in the US alone experience identity theft with over 50 billion in financial losses!" 
+### Self-custodial storage
 
-- "Data breaches have exposed 14 billion of our records including passwords, usernames, emails, IP addresses, phone numbers, VINs, physical addresses, and more!"
+The Jackal Protocol allows individuals to retain full control over their data, ensuring that no third party, not even the Jackal team, can access or view it without the user's consent.
 
-  - Check if you have been compromised below: 
-    - https://www.dehashed.com/
-    - https://haveibeenpwned.com/
+### On-chain permissions
 
-- "I believe in open-source, transparent, ethical and humane technology." 
+The transparent and secure permissions system enables users to manage access to their data, granting, revoking, or modifying permissions as needed.
 
-- "It's empowering to own your data."
+## Small Businesses
 
-- "Digital privacy is a fundamental human right and cybersecurity should be accessible to all." 
+Small businesses benefit from the Jackal Protocol in various ways:
 
-- "Third-party cookies or trackers are invasive and unnecessary." 
+### Cost-effective storage
 
-- "The only person that can sell my data is me." 
+With the Jackal Protocol's decentralized storage model, businesses can benefit from competitive pricing, making it more affordable than traditional centralized storage solutions.
 
+### Scalability
 
+The Jackal Protocol is built to scale with your business, ensuring that your data storage capacity can grow as your organization expands.
+
+### Simplified compliance
+
+Jackal Protocol's immutable records of data access and modification make it easier to meet industry-specific regulatory requirements and simplify auditing processes.
+
+## Large Enterprises
+
+Large enterprises can leverage the Jackal Protocol for:
+
+### Improved data governance
+
+The on-chain permissions system allows for transparent and secure management of data access, ensuring that sensitive information remains protected and accessible only to authorized personnel.
+
+### Enhanced security
+
+By leveraging the decentralized infrastructure, Jackal Protocol offers an additional layer of security for enterprise data storage, reducing the risk of cyber-attacks and data breaches.
+
+### Customizable solutions
+
+The Jackal Protocol enables developers to build and deploy a wide range of decentralized applications (dApps) that can interact with user data, opening up new possibilities for services and products that prioritize user privacy and control.
