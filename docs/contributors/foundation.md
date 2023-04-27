@@ -2,19 +2,16 @@
 sidebar_position: 2
 ---
 # Jackal Foundation
+
 ## What is the Jackal Foundation?
-The Jackal Community is anchored by the Jackal Foundation. A non-profit organization that drives the direction of development by researching and testing software, supporting projects, and ensuring decentralization.   
 
-### What is the scope of the Jackal Foundation? 
-- Maintain the Jackal Protocol.
+The Jackal Foundation serves as the cornerstone of the Jackal Community. As a non-profit organization, it propels development forward by conducting research, testing software, championing projects, and promoting decentralization.
 
-- Fund ecosystem development.
+### What is the scope of the Jackal Foundation?
 
-- Create and manage Jackal Collectives.
-
+- Maintain and enhance the Jackal Protocol.
+- Allocate resources to foster ecosystem growth.
+- Establish and oversee Jackal Collectives.
 - Manage the core governance of the Jackal Protocol.
-
-- Represent and enforce changes made through the governance process.
-
-
+- Uphold and implement changes resulting from the governance process.
 
