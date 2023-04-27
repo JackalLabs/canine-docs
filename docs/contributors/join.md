@@ -14,7 +14,9 @@ The Jackal Protocol is a transparent, open source, and community-driven project.
 
 - [GitHub](https://github.com/JackalLabs)
 
-- __Jackal Forums:__ Coming Soon
+- [Jackal Forums](https://forums.jackalprotocol.com/)
+
+- [Jackal Website](https://jackalprotocol.com/)
 
 
 
