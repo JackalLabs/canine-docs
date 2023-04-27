@@ -10,9 +10,9 @@ Here are the official website links of the Jackal Protocol. Please use and bookm
 
 [Github](https://github.com/JackalLabs)
 
-[Website](https://jackaldao.com/)
+[Website](https://jackalprotocol.com/)
 
-[Testnet Dashboard](https://beta.jackaldao.com/)
+[Testnet Dashboard](https://beta.jackalprotocol.com/)
 
 
 ## Social

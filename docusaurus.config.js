@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Jackal Chain Docs',
   tagline: 'The who, what, where, why, when, and how to get started with Jackal\'s blockchain!',
-  url: 'https://docs.jackaldao.com',
+  url: 'https://docs.jackalprotocol.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -78,7 +78,7 @@ const config = {
             items: [
               {
                 label: 'Website',
-                href: 'https://jackaldao.com',
+                href: 'https://jackalprotocol.com',
               },
             ],
           },
@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Documentation',
-                to: 'https://docs.jackaldao.com',
+                to: 'https://docs.jackalprotocol.com',
               },
               {
                 label: 'Contribute to Docs',
