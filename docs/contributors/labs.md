@@ -2,13 +2,15 @@
 sidebar_position: 3
 ---
 # Jackal Labs
+
 ## Who is Jackal Labs?
-Jackal Labs is a Canadian software development company that contributed to the early development of the Jackal Protocol.  Jackal Labs does not own or operate the Jackal Protocol as it is decentralized and autonomous.  Jackal Labs proposes changes to the Jackal Protocol through on-chain governance. 
 
-### What is the scope of Jackal Labs? 
-- Contribute to the early development of the Jackal Protocol.
+Jackal Labs, a Canadian software development company, played a pivotal role in the early development of the Jackal Protocol. As a decentralized and autonomous entity, the Jackal Protocol is not owned or operated by Jackal Labs. Instead, Jackal Labs contributes to the protocol's evolution by proposing changes through on-chain governance.
 
-- Perform continuous research and development for the Protocol.
+### What is the scope of Jackal Labs?
 
-- Propose changes to the protocol through governance.
+- Spearhead the initial development of the Jackal Protocol.
+- Engage in ongoing research and development for the Protocol.
+- Suggest improvements to the protocol via the governance process.
+
 
