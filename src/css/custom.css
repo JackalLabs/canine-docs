@@ -118,8 +118,14 @@ h1 {
   }
   }
 
-@media (min-width: 1280px) {
+@media (min-width: 1240px) {
+    .main-wrapper, .navbar__inner {
+      width: 1240px;
+    } 
+}
+
+@media (min-width: 1440px) {
   .main-wrapper, .navbar__inner {
-    width: 1280px;
+    width: 1440px;
   } 
 }
