@@ -1,18 +1,32 @@
 ---
 sidebar_position: 2
 ---
-# Encryption
-Jackal has two main features that rely on encryption techniques to keep user data private and secure. The two main models are file encryption and file-entry encryption. These reside in different locations within the protocol. The files themselves are stored on Storage Providers, which require files to be encrypted before they are transferred to those machines. The file entries are data structures living directly on-chain in the File Tree blockchain module, again needing to be encrypted on the client's device before being sent to the blockchain. The file encryption model is simply performed by taking the file as raw bytes and randomly generating a key in the user's client. This key is called a Symmetric Key. We then pass both the key and the file through AES256 encryption, which results in an encrypted file that can safely be sent to the Storage-Providers.
+# Encryption in Jackal Protocol
 
+The Jackal Protocol utilizes encryption techniques to ensure the privacy and security of user data. The two primary encryption models within the protocol are file encryption and file-entry encryption. File encryption secures the files themselves, while file-entry encryption focuses on securing the file entries on the blockchain.
 
-![Protocol Overview](/img/jkl_paper/enc1.png)
+## File Encryption
 
-What is done with this key is equally important as the encryption performed on the file; if the key were made public, all encryption on the file itself would be naught. Therefore, we need to store this key somewhere safe and immutable. This safe place is the Jackal Chain, specifically the File Tree Module. The key is stored in the encrypted form alongside the file's location to make mapping each key to its respective file easy. To get this key into its encrypted form, we use an Integrated Encryption Scheme based on AES and the Elliptic Curve used to generate Bech32 Addresses [Reference]. To do this, the protocol takes a user's public key and encrypts the private key with it.
+File encryption is essential for protecting the data stored on storage providers within the Jackal Protocol. Before transferring files to storage providers, the user's client encrypts the files using a randomly generated symmetric key. The Advanced Encryption Standard (AES-256) is used for this encryption process, resulting in a securely encrypted file.
 
-![Protocol Overview](/img/jkl_paper/enc2.png)
+![File Encryption Process](/img/jkl_paper/enc1.png)
 
-After this, the protocol ends up with an encrypted key that only the user whose public key was used can decrypt. When looking to decrypt a file, the process is reversed and instead uses the user's private key to decrypt the symmetric key. Following the retrieval of the symmetric key, we can decrypt the file stored on the Storage-Providers, leaving us with the originally uploaded file.
+The symmetric key's secure storage is equally crucial, as exposing it would compromise the file's encryption. The Jackal Chain's File Tree Module serves as a safe and immutable location for storing the encrypted symmetric key alongside the file's location.
 
-![Protocol Overview](/img/jkl_paper/enc3.png)
+## Integrated Encryption Scheme
 
-When sharing files, we can semi-repeat this process by first decrypting the key from the chain. Then we can grab the public key of an external user from the chain itself and encrypt the files with that key instead of our own. Finally, we append the newly encrypted symmetric key to the file entry giving that user access to the key.
+The protocol uses an Integrated Encryption Scheme based on AES and the Elliptic Curve cryptography, which generates Bech32 addresses for secure key storage.
+
+![Integrated Encryption Scheme](/img/jkl_paper/enc2.png)
+
+To securely store the symmetric key, the protocol encrypts it with the user's public key. This process ensures that only the user with the corresponding private key can decrypt the symmetric key.
+
+![Symmetric Key Decryption](/img/jkl_paper/enc3.png)
+
+When decrypting a file, the user's private key is used to decrypt the symmetric key. Once the symmetric key is retrieved, it can be used to decrypt the file stored on the storage provider, resulting in the original uploaded file.
+
+## File Sharing and Access
+
+To share files with other users, the protocol first decrypts the symmetric key from the chain, then retrieves the external user's public key from the chain, and encrypts the symmetric key with the external user's public key. By appending the newly encrypted symmetric key to the file entry, the external user gains access to the file.
+
+By leveraging encryption techniques for both files and file entries, the Jackal Protocol ensures the privacy, security, and integrity of user data throughout the storage and sharing processes.
