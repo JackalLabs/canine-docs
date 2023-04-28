@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# JPOP and IDOL Modules
+# Storage Module
 
 The Jackal Protocol incorporates two crucial algorithms for decentralized storage: Jackal Proof-of-Persistence (JPOP) and Internal Detection Of Loss (IDOL) protocols. This document provides an overview of these algorithms, their functionalities, and their interaction with users and Storage Providers.
 
