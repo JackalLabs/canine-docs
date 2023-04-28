@@ -9,7 +9,7 @@ Here are the official website links for Jackal Labs. Please use and bookmark the
 
 [Jackal Labs Twitter](https://twitter.com/Jackal_Labs)
 
-__Website__: Coming Soon
+[Website](https://www.jackallabs.io/)
 
 
 
