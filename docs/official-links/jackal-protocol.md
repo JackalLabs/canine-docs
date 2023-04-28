@@ -6,13 +6,12 @@ sidebar_position: 1
 Here are the official website links of the Jackal Protocol. Please use and bookmark these links to reduce the likelihood of cyber phishing threats.
 
 ## Protocol
-[Link Tree](https://linktr.ee/jackal_protocol)
 
 [Github](https://github.com/JackalLabs)
 
 [Website](https://jackalprotocol.com/)
 
-[Testnet Dashboard](https://beta.jackalprotocol.com/)
+[Jackal Dashboard](https://app.jackalprotocol.com/)
 
 
 ## Social
@@ -22,6 +21,10 @@ Here are the official website links of the Jackal Protocol. Please use and bookm
 [Telegram](https://t.me/+kyaQs5qFMF8zZDcx)
 
 [Jackal Protocol Twitter](https://twitter.com/Jackal_Protocol)
+
+[Community Quests](https://zealy.io/c/jackal/questboard)
+
+[Reddit](https://www.reddit.com/r/Jackal_Protocol/)
 
 
 
