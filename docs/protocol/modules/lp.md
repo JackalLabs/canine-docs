@@ -1,11 +1,17 @@
 ---
 sidebar_position: 3
 ---
-# lp Module
+# LP Module (Coming Soon)
 
+The `lp` (Liquidity Provision) module is a vital part of the Jackal Protocol, enabling the creation and management of liquidity pools for trading and swapping tokens. This module provides a decentralized solution for users to contribute liquidity to the ecosystem and earn rewards in return.
 
+## Overview
 
+The `lp` module manages the following aspects of liquidity pools:
 
-## lp
-The lp module allows for a native automated market maker (AMM) liquidity pools (LP) to be built directly into the Jackal Blockchain. This allows for local prices for payment mechanisms without the need for oracles, along with the ability to swap tokens directly from the Jackal dashboard or the Jackal Swap service. 
+1. **Liquidity Pool Creation**: Allows the creation of new liquidity pools for token pairs.
+2. **Liquidity Provision**: Facilitates users to add or remove liquidity from existing pools.
+3. **Token Swaps**: Enables decentralized trading and swapping of tokens within the liquidity pools.
+4. **Rewards**: Distributes rewards to liquidity providers proportionate to their contribution.
 
+For a more detailed guide on the 'lp' module, please refer to the [module documentation](https://github.com/JackalLabs/canine-chain/blob/master/x/lp/README.md) on GitHub.
