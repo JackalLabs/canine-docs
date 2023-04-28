@@ -1,26 +1,40 @@
 ---
 sidebar_position: 1
 ---
-# Tokens
-## JKL or Jackal 
-JKL is an inflationary token that powers the Jackal Protocol. The JKL Token has many use cases. Some of these use cases are below. 
+# JKL Token
 
-- __dApps__ - Applications built leveraging the Jackal Protocol, such as Jackal Storage and the RNS Marketplace, may choose to include the JKL token to expand its utility. 
+## Overview
+The JKL token is an inflationary token that powers the Jackal Protocol. It has numerous use cases within the ecosystem, ensuring its utility and importance. In this documentation, we will outline the main use cases of the JKL token and explain its role in the Jackal Protocol ecosystem.
 
-- __Securing the Network__ - As the Jackal Protocol is a Proof-of-Stake (PoS) Cosmos L1 blockchain, JKL can be delegated to validators to secure the network and earn JKL rewards. Otherwise known as staking or bonded tokens.
+## Use Cases
 
-- __Transaction Fees__ - Transactions on the Jackal Protocol must be paid for using JKL. As the protocol is PoS, the cost of transactions is inexpensive. 
+### dApps
+Applications built leveraging the Jackal Protocol, such as Jackal Storage and the RNS Marketplace, may choose to include the JKL token to expand its utility.
 
-- __Governance__ - Staked tokens grant on-chain governance participation within the Jackal Protocol to vote on text, software, spend, and other governance proposals. 
+### Securing the Network
+As the Jackal Protocol is a Proof-of-Stake (PoS) Cosmos L1 blockchain, JKL can be delegated to validators to secure the network and earn JKL rewards. Otherwise known as staking or bonded tokens.
 
-- __Collateral__ - The JKL token can act as collateral for validators, storage providers, and other smart contract use cases. 
+### Transaction Fees
+Transactions on the Jackal Protocol must be paid for using JKL. As the protocol is PoS, the cost of transactions is inexpensive.
 
-- __Liquidity Provision__ - JKL can be allocated into a liquidity pool to earn rewards. 
+### Governance
+Staked tokens grant on-chain governance participation within the Jackal Protocol to vote on text, software, spend, and other governance proposals.
 
-## JWL or Jewel
+### Collateral
+The JKL token can act as collateral for validators, storage providers, and other smart contract use cases.
 
-JWL is an L1 store-of-value token native to the Canine Blockchain. JWL tokens are immutable, meaning they can never be created, changed or destroyed. There is a finite amount of JWL that will be minted at the chain's genesis. Currently, there is no utility for the JWL token and it should be treated as such. 
+### Liquidity Provision
+JKL can be allocated into a liquidity pool to earn rewards.
 
+## Unique JKL Token Utility for Users and Storage Providers
+
+### Users
+
+Users seeking storage solutions can leverage JKL tokens to pay for the storage services provided by storage providers within the Jackal Protocol. By utilizing JKL tokens as a medium of exchange, users can access a decentralized, secure, and censorship-resistant storage infrastructure.
+
+### Storage Providers
+
+Storage providers are incentivized to offer storage space and maintain a high level of service by earning JKL tokens. By receiving JKL tokens as payment for their services, storage providers can cover the costs of infrastructure, hardware, and bandwidth while potentially profiting from their participation in the ecosystem.
 
 
 
