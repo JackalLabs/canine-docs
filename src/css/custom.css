@@ -84,6 +84,53 @@ h1 {
 .main-card{
   box-shadow: 0 1.5px 3px 0 rgb(0 0 0 / 15%);
   border: 1px solid var(--ifm-color-emphasis-200);
+  background-size: cover;
+  color: #3B4E70;
+}
+
+.article {
+  color: #3B4E70;
+  border-bottom-style: solid;
+}
+
+
+.article:hover {
+  text-decoration: none;
+}
+
+.card-title {
+  color: white;
+  text-decoration: white;
+}
+.card-title:hover {
+  color: white;
+  text-decoration: white;
+}
+
+.hero-card {
+  background-image : url('/img/card-images/grad.svg');
+  text-decoration: white;
+}
+
+.hero-card:hover {
+  text-decoration: white;
+}
+
+.card-image{
+  border-radius: 10px;
+  margin-top: 30px;
+  width: 120px;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-bottom: auto;
+  height: 120px;
+  padding: auto;
+ 
+}
+
+.card-image > * {
+  fill: white;
+  stroke-width: 2;
 }
 
 .navbar{
