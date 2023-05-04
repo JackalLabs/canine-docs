@@ -93,6 +93,11 @@ h1 {
   border-bottom-style: solid;
 }
 
+article {
+  margin-bottom: 20px;
+
+}
+
 
 .article:hover {
   text-decoration: none;

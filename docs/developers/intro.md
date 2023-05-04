@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 # Getting Started
 
-## Dependencies
+<!-- ## Dependencies
 
 * Golang
 * Rust
@@ -27,4 +27,6 @@ Golang is required to build the [canined](#canined) binary. Get [Golang](https:/
 
 ## Canined
 
-## Docker
+## Docker -->
+
+# Coming Soon
