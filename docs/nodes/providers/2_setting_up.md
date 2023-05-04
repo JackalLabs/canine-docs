@@ -46,7 +46,7 @@ make install
 
 source ~/.profile
 
-jprovd --version 
+jprovd version
 
 ```
 
