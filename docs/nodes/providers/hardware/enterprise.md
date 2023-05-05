@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 # Enterprise Build
 For teams looking to build a large storage system of ~2.1 Petabytes of storage, the estimated base price of the box with drives is ~$70,000 USD. This does not account for variable expenses including the regional costs of:
