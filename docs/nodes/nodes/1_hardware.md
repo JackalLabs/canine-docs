@@ -6,7 +6,7 @@ sidebar_position: 1
 We recommend a minimum hardware requirement of:
 
 * 4 Cores (modern CPU's)
-* 32GB RAM
-* 1TB of storage (SSD or NVME)
+* 128GB RAM
+* 3TB of storage (SSD or NVME)
 
 We also recommend running an Ubuntu LTS OS as that is what the binaries have been tested against.
