@@ -99,7 +99,12 @@ const fileIo = await FileIo.trackIo(wallet)
 const listOfFolders = ["folder_name", ...] 
 // you can create as many folders as you would like this way
 
-// this will only create new folders if they don't already exist
+// The first time a user connects, the use must init the system
+const storage = await StorageHandler.trackStorage(wallet)
+const msg = storage.makeStorageInitMsg()
+await fileIo.generateInitialDirs(msg, listOfFolders)
+
+// after the first time, this code can be used instead. this will only create new folders if they don't already exist
 const newFolderCount = await fileIo.verifyFoldersExist(listOfFolders)
 ```
 
