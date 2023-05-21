@@ -18,6 +18,19 @@ To get started using Jackal in the browser, you'll need a few things!
 
 To get started, make sure you start your project using Vite. If you have an existing React app for example, re-init the project using Vite.
 
+#### Updating Vite Config
+
+```js
+// In vite.config.js:
+import nodePolyfills from 'vite-plugin-node-stdlib-browser'
+
+export default defineConfig({
+  plugins: [
+    nodePolyfills()
+  ],
+})
+```
+
 ### Connecting Your Wallet
 
 ```js
@@ -99,7 +112,7 @@ const fileIo = await FileIo.trackIo(wallet)
 const listOfFolders = ["folder_name", ...] 
 // you can create as many folders as you would like this way
 
-// The first time a user connects, the use must init the system
+// The first time a user connects, they must init the system
 const storage = await StorageHandler.trackStorage(wallet)
 const msg = storage.makeStorageInitMsg()
 await fileIo.generateInitialDirs(msg, listOfFolders)
