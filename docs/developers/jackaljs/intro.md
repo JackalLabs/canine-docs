@@ -9,19 +9,19 @@ To get started using Jackal in the browser, you'll need a few things!
 
 ### Pre-requesites
 
-* Node.js
+* [Node.js](https://nodejs.org/en/download)
 * [Jackal.js](https://www.npmjs.com/package/jackal.js)
-* Vite
-* Keplr
+* [Vite](https://vitejs.dev/)
+* [Keplr](https://www.keplr.app/)
 
 ### Setting Up
 
-To get started, make sure you start your project using vite. If you have an existing React app for example, re-init the project using vite.
+To get started, make sure you start your project using Vite. If you have an existing React app for example, re-init the project using Vite.
 
 ### Connecting Your Wallet
 
 ```js
-const chainConfig = {
+const chainConfig = { // mainnet chain config
     chainId: 'jackal-1',
     chainName: 'Jackal',
     rpc: 'https://rpc.jackalprotocol.com',
@@ -69,8 +69,8 @@ const walletConfig = {
   selectedWallet: 'keplr',
   signerChain: 'jackal-1',
   enabledChains: ['jackal-1'],
-  queryAddr: 'https://kdb -grpc.jackalprotocol.com',
-  txAddr: 'https://kdb-rpc.jackalprotocol.com',
+  queryAddr: 'https://grpc.jackalprotocol.com',
+  txAddr: 'https://rpc.jackalprotocol.com',
   chainConfig: chainConfig
 }
 
