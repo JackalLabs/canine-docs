@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 # Getting Started
-
+## Web-Apps
+To get started building web apps that leverage Jackal, head over to the [Jackal.js Quickstart](./jackaljs/intro.md)
 <!-- ## Dependencies
 
 * Golang
@@ -29,4 +30,4 @@ Golang is required to build the [canined](#canined) binary. Get [Golang](https:/
 
 ## Docker -->
 
-# Coming Soon
+# dApp Docs Coming Soon
