@@ -3,6 +3,10 @@ sidebar_position: 3
 ---
 # Jackal.js
 
+Implements [Jacakl.js-protos](https://www.npmjs.com/package/@jackallabs/jackal.js-protos)
+
+[Full method documentation](https://jackallabs.github.io/jackal.js/)
+
 ## Quickstart
 
 To get started using Jackal in the browser, you'll need a few things!
@@ -10,7 +14,7 @@ To get started using Jackal in the browser, you'll need a few things!
 ### Pre-requesites
 
 * [Vue.js](https://vuejs.org/guide/introduction.html) or [React](https://react.dev/learn)
-* [Jackal.js](https://www.npmjs.com/package/jackal.js)
+* [Jackal.js](https://www.npmjs.com/package/@jackallabs/jackal.js)
 * [Vite](https://vitejs.dev)
 * Chromium-family browser (Chrome, Brave, Edge, etc)
 * [Keplr](https://www.keplr.app) or [Leap](https://www.leapwallet.io/cosmos) wallet extension
@@ -21,7 +25,8 @@ To get started, make sure you [start your project using Vite](https://vitejs.dev
 
 Install dependencies:
 ```shell
-npm install jackal.js
+npm create vite@latest
+npm install @jackallabs/jackal.js-protos @cosmjs/proto-signing
 npm install -D vite-plugin-node-stdlib-browser
 ```
 
@@ -200,7 +205,8 @@ This means giving the protocol $8 USD per month per tb. We can do this with Jack
 ```js
 const storage = await StorageHandler.trackStorage(wallet)
 
-// (Wallet address, duration in months (min 1), 
+// (Wallet address)
+// duration in months (min 1)
 // space in terabytes (min .001)
 
 // 2 TB for 1 year:
@@ -213,7 +219,7 @@ await storage.buyStorage(WALLET_ADDRESS, 12, 2)
 const fileIo = await FileIo.trackIo(wallet)
 
 const listOfRootFolders = ["Home", ...] 
-// you can create as many root folders as you would like this way. Home is the dashboard default root directory.
+// you can create as many root folders as you would like this way. Home is the Jackal Dashboard default root directory.
 
 // The first time a user connects, they must init the system
 const storage = await StorageHandler.trackStorage(wallet)
@@ -229,7 +235,7 @@ const newFolderCount = await fileIo.verifyFoldersExist(listOfRootFolders)
 ```js
 const fileIo = await FileIo.trackIo(wallet)
 
-const parentFolderPath = PARENT_FOLDER_NAME // for example Dashboard's root folder path is s/Home
+const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
 
 const listOfChildFolders = ["Movies", "Pictures", ...]
@@ -242,7 +248,7 @@ await fileIo.createFolders(parent, listOfChildFolders)
 ```js
 const fileIo = await FileIo.trackIo(wallet)
 
-const parentFolderPath = PARENT_FOLDER_NAME // for example Dashboard's root folder path is s/Home
+const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
 
 const file = FILE_OBJECT // this MUST be an instance of File() that is in the browser memory
@@ -267,7 +273,7 @@ await fileIo.staggeredUploadFiles(uploadList, parent, {counter: 0, complete: 0})
 const fileIo = await FileIo.trackIo(wallet)
 
 /* optional */
-const parentFolderPath = PARENT_FOLDER_NAME // for example Dashboard's root folder path is s/Home
+const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
 const childrenFiles = parent.getChildFiles()
 const pathOfFirstChild = parent.getMyChildPath(childrenFiles[0].name)
