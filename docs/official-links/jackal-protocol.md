@@ -3,7 +3,9 @@ sidebar_position: 1
 ---
 
 # Jackal Protocol Links
-Here are the official website links of the Jackal Protocol. Please use and bookmark these links to reduce the likelihood of cyber phishing threats.
+
+Here are the official website links of the Jackal Protocol. Please use and bookmark these links to reduce the likelihood
+of cyber phishing threats.
 
 ## Protocol
 
@@ -12,7 +14,6 @@ Here are the official website links of the Jackal Protocol. Please use and bookm
 [Website](https://jackalprotocol.com/)
 
 [Jackal Dashboard](https://app.jackalprotocol.com/)
-
 
 ## Social
 

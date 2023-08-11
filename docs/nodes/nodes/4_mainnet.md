@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 ---
+
 # Joining Mainnet
 
 :::tip
@@ -26,9 +27,10 @@ GAS="0.002ujkl"
 
 sed -i.bak -e "s/^seeds *=.*/seeds = \"$SEEDS\"/; s/^persistent_peers *=.*/persistent_peers = \"$PEERS\"/" $HOME/.canine/config/config.toml
 ```
+
 ## Backing up key files
 
-The created `node_key.json` and `priv_validator_key.json` cannot be recovered.  These files ***must*** be backed up.
+The created `node_key.json` and `priv_validator_key.json` cannot be recovered. These files ***must*** be backed up.
 
 ```sh
 mkdir ~/key_backup
@@ -36,16 +38,19 @@ cp ~/.canine/config/node_key.json ~/key_backup
 cp ~/.canine/config/priv_validator_key.json ~/key_backup
 ```
 
-You should also keep an offline backup.  Using a program like `WinSCP`, you can easily copy these files to your personal desktop for safe storage/backup.
+You should also keep an offline backup. Using a program like `WinSCP`, you can easily copy these files to your personal
+desktop for safe storage/backup.
 
 ## Syncing to Current Height
 
 ### Snapshot method
+
 Get a snapshot [here](http://snapshots.autostake.net/jackal-1/).
 
 For the sake of this guide, the snapshot we download is named `jackal.tar.lz4`
 
-If you plan on becoming a validator, before using the `unsafe-reset-all` flag, always besure to back up your `priv_validator_state.json` file.  
+If you plan on becoming a validator, before using the `unsafe-reset-all` flag, always besure to back up
+your `priv_validator_state.json` file.
 
 ```sh
 canined unsafe-reset-all --keep-addr-book
@@ -55,8 +60,10 @@ lz4 -c -d jackal.tar.lz4  | tar -x -C $HOME/.canine
 Then start the chain again.
 
 ### State Sync Method
+
 There are a couple of ways to go about doing state sync.
-First is the easier route.  Visit [Ping.pub](https://ping.pub/jackal/statesync) for Jackals State Sync configuration settings.
+First is the easier route. Visit [Ping.pub](https://ping.pub/jackal/statesync) for Jackals State Sync configuration
+settings.
 
 Next, copy these settings from Ping.pub to your `config.toml` in the `[statesync]` section.
 
@@ -100,17 +107,19 @@ chunk_request_timeout = "10s"
 chunk_fetchers = "42"
 ```
 
-State syncing can take up to a few minutes to complete.  Watch the logs to ensure it's happening.  When a snapshot is found, you will see output in your log that is similar to this:
+State syncing can take up to a few minutes to complete. Watch the logs to ensure it's happening. When a snapshot is
+found, you will see output in your log that is similar to this:
 
 ```sh
 1PM INF Discovered new snapshot format=1 hash="S.�h�F���\"\x1d6+\x1e���ޅ��`v@�ц�����" height=1810000 module=statesync
 ```
 
-It will download, verify, and apply chuncks of blockchain data.  When it finishes you will see it catching up to blocks
+It will download, verify, and apply chuncks of blockchain data. When it finishes you will see it catching up to blocks
 
 ### State Sync Method 2
 
-The follow commandline code will edit your `config.toml` with the proper information for state syncing to the most recent snapshot 3000 blocks and beyond.
+The follow commandline code will edit your `config.toml` with the proper information for state syncing to the most
+recent snapshot 3000 blocks and beyond.
 
 ```sh
 STATE_SYNC_RPC=https://rpc.jackalprotocol.com:443

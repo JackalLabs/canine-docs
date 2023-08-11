@@ -1,12 +1,15 @@
 ---
 sidebar_position: 2
 ---
+
 # Installing Canined
 
-## Pre-Requisites 
+## Pre-Requisites
+
 See [Set-up](../1_install.md).
 
 ### Firewall Configuration
+
 Configure UFW to only accept traffic on ports we use.
 
 ```bash
@@ -20,12 +23,14 @@ ufw enable
 
 :::tip
 
-Perform the next follow steps as your `jackal` user with 'sudo' permissions 
+Perform the next follow steps as your `jackal` user with 'sudo' permissions
 
 :::
 
 ### Creating a Service
-You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these steps.
+
+You may want the daemon to run without you needing to supervise it. To turn the executable into a service follow these
+steps.
 
 First create the service file `/etc/systemd/system/canined.service`
 
@@ -33,7 +38,8 @@ First create the service file `/etc/systemd/system/canined.service`
 sudo nano /etc/systemd/system/canined.service
 ```
 
-Copy and paste the follow into the service file: (you may need to edit it if you've set a custom home directory location)
+Copy and paste the follow into the service file: (you may need to edit it if you've set a custom home directory
+location)
 
 ```conf
 [Unit]
@@ -54,6 +60,7 @@ WantedBy=multi-user.target
 ```
 
 Update systemd and enable the service file.
+
 ```sh
 sudo systemctl daemon-reload
 sudo systemctl enable canined.service
@@ -62,6 +69,7 @@ sudo systemctl enable canined.service
 ## Building from Source
 
 Replace `<VERSION>` with the current running version.
+
 ```sh
 git clone https://github.com/JackalLabs/canine-chain.git
 cd canine-chain
@@ -72,6 +80,7 @@ make install
 ```
 
 From there you will be able to use `canined`, ex:
+
 ```sh
 canined version
 ```

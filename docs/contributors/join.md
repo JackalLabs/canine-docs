@@ -1,10 +1,15 @@
 ---
 sidebar_position: 1
 ---
+
 # Join the Community!
+
 ## The Jackal Community is open to all.
-The Jackal Protocol is a transparent, open source, and community-driven project. We welcome all who want to help build a self-custodial and secure digital future.   
-### To contribute; please join below. 
+
+The Jackal Protocol is a transparent, open source, and community-driven project. We welcome all who want to help build a
+self-custodial and secure digital future.
+
+### To contribute; please join below.
 
 - [Twitter](https://twitter.com/home)
 

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 4
 ---
+
 # Jackal.nodejs
 
 ## Quickstart
@@ -18,12 +19,15 @@ A working demo repo can be found [on GitHub](https://github.com/JackalLabs/pup-d
 ### Setting Up
 
 Install dependencies:
+
 ```shell
 npm install @jackallabs/jackal.nodejs
 npm install -D @types/node typescript tscpaths
 ```
 
-Jackal.js requires Node v20+. The easiest way to manage this is with [NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
+Jackal.js requires Node v20+. The easiest way to manage this is
+with [NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
+
 ```shell
 nvm use 20
 ```
@@ -88,12 +92,9 @@ const newFolderCount = await fileIo.verifyFoldersExist(listOfRootFolders)
 
 ```js
 const fileIo = await FileIo.trackIo(wallet)
-
 const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
-
 const listOfChildFolders = ["Movies", "Pictures", ...]
-
 await fileIo.createFolders(parent, listOfChildFolders)
 ```
 

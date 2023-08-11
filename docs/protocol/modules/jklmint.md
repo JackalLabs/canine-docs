@@ -4,7 +4,8 @@ sidebar_position: 2
 
 # JKLmint Module
 
-The `jklmint` module is responsible for the management of the native JKL token within the Jackal Protocol. This module handles the issuance, distribution, and inflation of JKL tokens, ensuring a stable and secure token economy.
+The `jklmint` module is responsible for the management of the native JKL token within the Jackal Protocol. This module
+handles the issuance, distribution, and inflation of JKL tokens, ensuring a stable and secure token economy.
 
 ## Overview
 

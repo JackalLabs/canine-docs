@@ -1,11 +1,13 @@
 ---
 sidebar_position: 2
 ---
+
 # Jackal Foundation
 
 ## What is the Jackal Foundation?
 
-The Jackal Foundation serves as the cornerstone of the Jackal Community. As a non-profit organization, it propels development forward by conducting research, testing software, championing projects, and promoting decentralization.
+The Jackal Foundation serves as the cornerstone of the Jackal Community. As a non-profit organization, it propels
+development forward by conducting research, testing software, championing projects, and promoting decentralization.
 
 ### What is the scope of the Jackal Foundation?
 

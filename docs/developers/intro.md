@@ -1,8 +1,11 @@
 ---
 sidebar_position: 2
 ---
+
 # Getting Started
+
 ## Web-Apps
+
 To get started building web apps that leverage Jackal, head over to the [Jackal.js Quickstart](./jackaljs/intro.md)
 <!-- ## Dependencies
 

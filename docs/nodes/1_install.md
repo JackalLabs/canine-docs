@@ -1,16 +1,19 @@
 ---
 sidebar_position: 0
 ---
+
 # Setting Up
 
-## Pre-Requisites 
+## Pre-Requisites
 
-There are a few things needed before installing. 
+There are a few things needed before installing.
 
 While logged in as the 'root' or 'admin' user, we add a 'jackal' user and give them root privileges.
 
 ### Enable Firewall Rules
-Enabling the firewall is important to ensure your hardware remains secure. The following commands will add rules required for access on both validators and providers:
+
+Enabling the firewall is important to ensure your hardware remains secure. The following commands will add rules
+required for access on both validators and providers:
 
 ```sh
 sudo ufw allow 22
@@ -31,7 +34,8 @@ The only additional port required for a provider is 3333:
 sudo ufw allow 3333
 ```
 
-If you are running a combined validator/provider, you need to allow all of the above ports. After adding ports to the rules list, you will need to start the firewall:
+If you are running a combined validator/provider, you need to allow all of the above ports. After adding ports to the
+rules list, you will need to start the firewall:
 
 ```sh
 sudo ufw enable
@@ -73,6 +77,7 @@ sudo su - jackal
 ```
 
 ### Installing required tools
+
 This will install the necessary tools to build the jackal chain source, along with lz4 compression tool and jquery tool.
 
 ```sh
@@ -81,6 +86,7 @@ sudo apt install build-essential lz4 jq
 ```
 
 ### Installing Go
+
 Follow more in-depth instructions to install Go v1.19 or higher [here](https://golang.org/doc/install).
 
 On Ububtu you can install it with:
