@@ -6,7 +6,7 @@ sidebar_position: 2
 
 ## Web-Apps
 
-To get started building web apps that leverage Jackal, head over to the [Jackal.js Quickstart](./jackaljs/intro.md)
+To get started building web apps that leverage Jackal, head over to the [Jackal.js Quickstart](./dAppLibraries/3_jackal_js.md)
 <!-- ## Dependencies
 
 * Golang
