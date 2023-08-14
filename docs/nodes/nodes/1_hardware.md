@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
 ---
+
 # Hardware
 
 We recommend a minimum hardware requirement of:

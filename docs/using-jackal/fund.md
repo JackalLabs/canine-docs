@@ -4,7 +4,8 @@ sidebar_position: 2
 
 # Accessing JKL Tokens on Osmosis and Withdrawing to Jackal Protocol
 
-This guide will help you access JKL tokens on the Osmosis Decentralized Exchange (DEX) and withdraw them to the Jackal Protocol using Inter-Blockchain Communication (IBC).
+This guide will help you access JKL tokens on the Osmosis Decentralized Exchange (DEX) and withdraw them to the Jackal
+Protocol using Inter-Blockchain Communication (IBC).
 
 ## Step 1: Set up a Keplr Wallet
 
@@ -28,7 +29,8 @@ This guide will help you access JKL tokens on the Osmosis Decentralized Exchange
 
 1. Visit the [Assets Page](https://app.osmosis.zone/assets).
 2. Find the JKL asset and click "withdraw".
-3. Once you sign the transaction with your Keplr wallet, an IBC transfer has begun and your JKL tokens will be available on the Jackal Protocol shortly. 
+3. Once you sign the transaction with your Keplr wallet, an IBC transfer has begun and your JKL tokens will be available
+   on the Jackal Protocol shortly.
 
 Now you have successfully accessed JKL tokens on the Osmosis DEX and withdrawn them to the Jackal Protocol using IBC.
 

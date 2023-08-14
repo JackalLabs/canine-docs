@@ -1,7 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
+
 # Jackal.js
+
+Implements [Jacakl.js-protos](https://www.npmjs.com/package/@jackallabs/jackal.js-protos)
+
+[Full method documentation](https://jackallabs.github.io/jackal.js/)
 
 ## Quickstart
 
@@ -9,23 +14,29 @@ To get started using Jackal in the browser, you'll need a few things!
 
 ### Pre-requesites
 
+* Nodejs v20+
 * [Vue.js](https://vuejs.org/guide/introduction.html) or [React](https://react.dev/learn)
-* [Jackal.js](https://www.npmjs.com/package/jackal.js)
+* [Jackal.js](https://www.npmjs.com/package/@jackallabs/jackal.js)
 * [Vite](https://vitejs.dev)
 * Chromium-family browser (Chrome, Brave, Edge, etc)
 * [Keplr](https://www.keplr.app) or [Leap](https://www.leapwallet.io/cosmos) wallet extension
 
 ### Setting Up
 
-To get started, make sure you [start your project using Vite](https://vitejs.dev/guide). If you have an existing React app for example, re-init the project using Vite.
+To get started, make sure you [start your project using Vite](https://vitejs.dev/guide). If you have an existing React
+app for example, re-init the project using Vite.
 
 Install dependencies:
+
 ```shell
-npm install jackal.js
+npm create vite@latest
+npm install @jackallabs/jackal.js-protos @cosmjs/proto-signing
 npm install -D vite-plugin-node-stdlib-browser
 ```
 
-Jackal.js requires Node v20+. The easiest way to manage this is with [NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
+Jackal.js requires Node v20+. The easiest way to manage this is
+with [NVM](https://github.com/nvm-sh/nvm#installing-and-updating).
+
 ```shell
 nvm use 20
 ```
@@ -46,12 +57,15 @@ export default defineConfig({
 
 ### Connecting Your Wallet
 
-Custom chain configurations are required for [Testnet](#testnet-configuration), and for Keplr on [Mainnet](#mainnet-configuration). The following are the correct options to use.
-Jackal.js additionally supports app-level overrides to the chain default settings. This requires some redundancy, but allows for greater flexibility in projects.
+Custom chain configurations are required for [Testnet](#testnet-configuration), and for Keplr
+on [Mainnet](#mainnet-configuration).
+The following are the correct options to use. Jackal.js additionally supports app-level overrides to the chain default
+settings. This requires some redundancy, but allows for greater flexibility in projects.
 
 #### Wallet Selection
 
-Currently Jackal,js supports Keplr and Leap wallets. Only a single wallet can be used at any time, but you can switch between them as desired.
+Currently Jackal,js supports Keplr and Leap wallets. Only a single wallet can be used at any time, but you can switch
+between them as desired.
 
 ```js
 const selectedWallet = 'keplr'
@@ -181,7 +195,6 @@ const finalWalletConfig = {
   ...appConfig,
   chainConfig
 }
-
 // Hooking up the wallet to your app
 const wallet = await WalletHandler.trackWallet(finalWalletConfig)
 ```
@@ -199,10 +212,9 @@ This means giving the protocol $8 USD per month per tb. We can do this with Jack
 
 ```js
 const storage = await StorageHandler.trackStorage(wallet)
-
-// (Wallet address, duration in months (min 1), 
+// (Wallet address)
+// duration in months (min 1)
 // space in terabytes (min .001)
-
 // 2 TB for 1 year:
 await storage.buyStorage(WALLET_ADDRESS, 12, 2)
 ```
@@ -210,16 +222,14 @@ await storage.buyStorage(WALLET_ADDRESS, 12, 2)
 ### Creating a Root Folder
 
 ```js
-const fileIo = await FileIo.trackIo(wallet)
-
-const listOfRootFolders = ["Home", ...] 
-// you can create as many root folders as you would like this way. Home is the dashboard default root directory.
-
+const minimumProviderVersion = '1.0.9'
+const fileIo = await FileIo.trackIo(wallet, minimumProviderVersion)
+const listOfRootFolders = ["Home", ...]
+// you can create as many root folders as you would like this way. Home is the Jackal Dashboard default root directory.
 // The first time a user connects, they must init the system
 const storage = await StorageHandler.trackStorage(wallet)
 const msg = storage.makeStorageInitMsg()
 await fileIo.generateInitialDirs(msg, listOfRootFolders)
-
 // after the first time, this code can be used instead. this will only create new root folders if they don't already exist
 const newFolderCount = await fileIo.verifyFoldersExist(listOfRootFolders)
 ```
@@ -228,12 +238,9 @@ const newFolderCount = await fileIo.verifyFoldersExist(listOfRootFolders)
 
 ```js
 const fileIo = await FileIo.trackIo(wallet)
-
-const parentFolderPath = PARENT_FOLDER_NAME // for example Dashboard's root folder path is s/Home
+const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
-
 const listOfChildFolders = ["Movies", "Pictures", ...]
-
 await fileIo.createFolders(parent, listOfChildFolders)
 ```
 
@@ -241,14 +248,11 @@ await fileIo.createFolders(parent, listOfChildFolders)
 
 ```js
 const fileIo = await FileIo.trackIo(wallet)
-
-const parentFolderPath = PARENT_FOLDER_NAME // for example Dashboard's root folder path is s/Home
+const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
-
 const file = FILE_OBJECT // this MUST be an instance of File() that is in the browser memory
 const fileName = file.name
 const handler = await FileUploadHandler.trackFile(file, parentFolderPath)
-
 const uploadList = {}
 uploadList[fileName] = {
   data: null,
@@ -257,7 +261,6 @@ uploadList[fileName] = {
   key: fileName,
   uploadable: await handler.getForUpload()
 }
-
 await fileIo.staggeredUploadFiles(uploadList, parent, {counter: 0, complete: 0})
 ```
 
@@ -265,22 +268,18 @@ await fileIo.staggeredUploadFiles(uploadList, parent, {counter: 0, complete: 0})
 
 ```js
 const fileIo = await FileIo.trackIo(wallet)
-
 /* optional */
-const parentFolderPath = PARENT_FOLDER_NAME // for example Dashboard's root folder path is s/Home
+const parentFolderPath = PARENT_FOLDER_NAME_AND_PATH // for example Dashboard's root folder path is s/Home
 const parent = await fileIo.downloadFolder(parentFolderPath)
 const childrenFiles = parent.getChildFiles()
 const pathOfFirstChild = parent.getMyChildPath(childrenFiles[0].name)
 /* end optional */
-
 const downloadDetails = {
   rawPath: FILE_PATH, // manual complete file path OR pathOfFirstChild
   owner: OWNER_ADDRESS, // JKL address of file owner
   isFolder: false
 }
-
-const fileHanlder = await fileIo.downloadFile(downloadDetails, { track: 0 })
-
+const fileHanlder = await fileIo.downloadFile(downloadDetails, {track: 0})
 const file = fileHanlder.receiveBacon()
 // do what you want with the File object returned by receiveBacon
 ```

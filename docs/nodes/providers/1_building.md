@@ -1,27 +1,38 @@
 ---
 sidebar_position: 1
 ---
+
 # Creating Provider
 
 ## Disclaimer
 
-This guide assumes you either have access to a full node over a network connection or are using the same machine as the full node.
+This guide assumes you either have access to a full node over a network connection or are using the same machine as the
+full node.
 
 ## Networking
-To allow your provider to be used by the Jackal Protocol Dashboard, please ensure you have a reverse proxy system setup and have a registered domain name pointing to your provider. We recommend using [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/).
 
-If you have UPNP enabled on your router, your provider will be open to the internet by default at port `3333`. You can find the address it can be connected to by running `canined network ip`.
+To allow your provider to be used by the Jackal Protocol Dashboard, please ensure you have a reverse proxy system setup
+and have a registered domain name pointing to your provider. We recommend
+using [Nginx](https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/).
+
+If you have UPNP enabled on your router, your provider will be open to the internet by default at port `3333`. You can
+find the address it can be connected to by running `canined network ip`.
 
 ## Setting up ZFS Without Mirroring
 
-Setting up ZFS allows us to combine multiple drives together, in this case we are merging two drives. We don't recommend you only merge drives with striping and instead we recommend mirroring. However mirroring is a longer process and different for each configuration. In our case, this machine is only running with 24TB across 2 drives. We are less concerned about a drive failing as that would wipe half our storage anyways.
+Setting up ZFS allows us to combine multiple drives together, in this case we are merging two drives. We don't recommend
+you only merge drives with striping and instead we recommend mirroring. However mirroring is a longer process and
+different for each configuration. In our case, this machine is only running with 24TB across 2 drives. We are less
+concerned about a drive failing as that would wipe half our storage anyways.
 
 List all drives with :
+
 ```sh
 sudo fdisk -l
 ```
 
 You should end up seeing something like this
+
 ```sh
 ...
 
@@ -44,7 +55,7 @@ Disk identifier: D2827F71-7F0A-EE4A-BB12-1B2172641DBE
 ...
 ```
 
-Note down the Disk paths that you wish to use for your storage provider, in this case it is `/dev/sdb` and `/dev/sda`. 
+Note down the Disk paths that you wish to use for your storage provider, in this case it is `/dev/sdb` and `/dev/sda`.
 
 We install ZFS and create a new pool as follows:
 
@@ -56,4 +67,5 @@ sudo zpool create {pool-name} /dev/sda /dev/sdb ...
 sudo zpool status
 ```
 
-This folder will now have the drives mounted at `/{pool-name}`. For more in-depth guides to using zfs, check out [this page](https://zfsonlinux.org/).
+This folder will now have the drives mounted at `/{pool-name}`. For more in-depth guides to using zfs, check
+out [this page](https://zfsonlinux.org/).

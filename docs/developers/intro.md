@@ -1,33 +1,20 @@
 ---
 sidebar_position: 2
 ---
+
 # Getting Started
+
 ## Web-Apps
-To get started building web apps that leverage Jackal, head over to the [Jackal.js Quickstart](./jackaljs/intro.md)
-<!-- ## Dependencies
 
-* Golang
-* Rust
-* Cargo
-* Cargo Generate
-* Wasm32
-* Canined
-* Docker
+To get started building web apps that leverage Jackal, head over to
+the [Jackal.js Quickstart](./dAppLibraries/3_jackal_js.md)
 
-### Golang
+## Server-side
 
-Golang is required to build the [canined](#canined) binary. Get [Golang](https://go.dev/doc/install)!
+To get started building server-side apps that leverage Jackal, head over to
+the [Jackal.nodejs Quickstart](./dAppLibraries/4_jackal_nodejs.md)
+or [Jackalgo Quickstart](./dAppLibraries/5_jackal_go.md).
 
-### Rust
+## APIs
 
-#### Cargo
-
-#### Cargo Generate
-
-#### Wasm32
-
-## Canined
-
-## Docker -->
-
-# dApp Docs Coming Soon
+To get started building using our APIs, check out [API Quickstart](./apis/2_apis.md).
