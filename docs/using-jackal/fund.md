@@ -2,14 +2,13 @@
 sidebar_position: 2
 ---
 
-# Accessing JKL Tokens on Osmosis and Withdrawing to Jackal Protocol
+# Accessing JKL Tokens on a Decentralized Exchange and Withdrawing to Jackal Protocol
 
-This guide will help you access JKL tokens on the Osmosis Decentralized Exchange (DEX) and withdraw them to the Jackal
-Protocol using Inter-Blockchain Communication (IBC).
+This guide will help you access JKL tokens on the Osmosis Decentralized Exchange (DEX) and withdraw them to the Jackal Protocol using the Inter-Blockchain Communication Protocol (IBC).
 
 ## Step 1: Set up a Keplr Wallet
 
-1. Install the [Keplr Wallet](https://wallet.keplr.app/) browser extension.
+1. Install the [Keplr Wallet](https://wallet.keplr.app/) or [Leap Wallet](https://www.leapwallet.io/)browser extension.
 2. Create a new wallet or import an existing one.
 3. Make sure you have some OSMO tokens in your wallet for transaction fees.
 
