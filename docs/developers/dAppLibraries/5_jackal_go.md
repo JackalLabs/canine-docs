@@ -51,7 +51,7 @@ if err != nil {
 	panic(err)
 }
 
-folder, err := fileIo.DownloadFolder(path)
+folder, err := fileIo.LoadNestedFolder(path)
 if err != nil {
 	panic(err)
 }
@@ -61,7 +61,7 @@ _, fids, _, err := fileIo.StaggeredUploadFiles([]*file_upload_handler.FileUpload
 
 ### Downloading File
 ```go
-handler, err := fileIo.DownloadFile(operatingRoot)
+handler, err := fileIo.DownloadFile("s/" + operatingRoot)
 if err != nil {
 	panic(err)
 }
