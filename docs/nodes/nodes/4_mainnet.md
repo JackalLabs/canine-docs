@@ -45,7 +45,7 @@ desktop for safe storage/backup.
 
 ### Snapshot method
 
-Get a snapshot [here](http://snapshots.autostake.net/jackal-1/).
+Get a snapshot [here](https://polkachu.com/tendermint_snapshots/jackal).
 
 For the sake of this guide, the snapshot we download is named `jackal.tar.lz4`
 
